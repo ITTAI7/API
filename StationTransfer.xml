@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRTStationTransferList>
+    <UpdateTime></UpdateTime>
+    <UpdateInterval></UpdateInterval>
+    <AuthorityCode></AuthorityCode>
+    <StationTransfers>
+        <StationTransfer>
+            <StationID></StationID>
+            <StationName>
+                <Zh_tw></Zh_tw>
+                <En></En>
+            </StationName>
+            <TransferDescription></TransferDescription>
+            <InteriorMapURLs>
+                <InteriorMapURL>
+                    <MapName></MapName>
+                    <MapURL></MapURL>
+                    <FloorLevel></FloorLevel>
+                </InteriorMapURL>
+            </InteriorMapURLs>
+            <ExteriorMapURLs>
+                <ExteriorMapURL>
+                    <MapName></MapName>
+                    <MapURL></MapURL>
+                    <FloorLevel></FloorLevel>
+                </ExteriorMapURL>
+            </ExteriorMapURLs>
+            <Transfers>
+                <Transfer>
+                    <ExitID />
+                    <ExitName />
+                    <RailTransfers>
+                        <RailTransfer>
+                            <Mode>Rail</Mode>
+                            <OperatorCode />
+                            <OperatorName />
+                            <StationID />
+                            <StationName>
+                            <MinTransferTime xsi:nil="true" />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer xsi:nil="true" />
+                        </RailTransfer>
+                        <!-- 其它RailTransfer -->
+                    </RailTransfers>
+                    <BusTransfers>
+                        <BusTransfer>
+                            <Mode>Bus</Mode>
+                            <OperatorCode></OperatorCode>
+                            <OperatorName></OperatorName>
+                            <RouteID></RouteID>
+                            <RouteName />
+                            <StopID />
+                            <StopName />
+                            <Description />
+                            <MinTransferTime xsi:nil="true" />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer xsi:nil="true" />
+                        </BusTransfer>
+                        <!-- 其它BusTransfer -->
+                    </BusTransfers>
+                    <AirportTransfers>
+                        <AirportTransfer>
+                            <Mode>Air</Mode>
+                            <OperatorCode />
+                            <OperatorName />
+                            <AirportID />
+                            <AirportName />
+                            <MinTransferTime />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer />
+                        </AirportTransfer>
+                        <!-- 其它AirportTransfer -->
+                    </AirportTransfers>
+                    <BikeTransfers>
+                        <BikeTransfer>
+                            <Mode>Bike</Mode>
+                            <OperatorCode />
+                            <OperatorName />
+                            <StationID />
+                            <StationName />
+                            <MinTransferTime />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer />
+                        </BikeTransfer>
+                        <!-- 其它BikeTransfer -->
+                    <BikeTransfers>
+                    <ParkingTransfers>
+                        <ParkingTransfer>
+                            <Mode>Car</Mode>
+                            <CarParkID />
+                            <CarParkName> </CarParkName>
+                            <MinTransferTime xsi:nil="true" />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer xsi:nil="true" />
+                        </ParkingTransfer>
+                        <!-- 其它ParkingTransfer -->
+                    </ParkingTransfers>
+                    <TaxiTransfers>
+                        <TaxiTransfer>
+                            <Mode>Taxi</Mode>
+                            <TaxiStopID />
+                            <TaxiStopName></TaxiStopName>
+                            <MinTransferTime xsi:nil="true" />
+                            <FloodLevel />
+                            <Description />
+                            <IsOnSiteTransfer xsi:nil="true" />
+                        </TaxiTransfer>
+                        <!-- 其它TaxiTransfer -->
+                    </TaxiTransfers>
+                </Transfer>
+            </Transfers>
+        </StationTransfer>
+        <!-- 其它StationTransfer -->
+    </StationTransfers>
+</MRTStationTransferList>

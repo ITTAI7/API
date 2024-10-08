@@ -1,0 +1,11 @@
+INFO:     Started server process [9192]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9180 (Press CTRL+C to quit)
+INFO:     [::1]:60764:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     [::1]:60764:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     [::1]:60764:0 - "GET /StationTransfer HTTP/1.1" 404 Not Found
+INFO:     [::1]:60764:0 - "GET /data/xml HTTP/1.1" 200 OK
+INFO:     [::1]:60764:0 - "GET /data/xml HTTP/1.1" 200 OK
+INFO:     [::1]:60935:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     [::1]:60935:0 - "GET /openapi.json HTTP/1.1" 200 OK

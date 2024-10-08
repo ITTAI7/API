@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "fastapi",
+        "iloc",
+        "iterrows",
+        "notna",
+        "openpyxl",
+        "prac",
+        "stationfacility",
+        "stationtransfer",
+        "subelem",
+        "uploadfile",
+        "uvicorn",
+        "venv",
+        "xmltodict"
+    ]
+}

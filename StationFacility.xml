@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MRTStationTransferList>
+    <UpdateTime></UpdateTime>
+    <UpdateInterval></UpdateInterval>
+    <AuthorityCode></AuthorityCode>
+    <StationFacilities>
+        <StationFacility>
+            <StationID></StationID>
+            <StationName>
+                <Zh_tw></Zh_tw>
+                <En></En>
+            </StationName>
+            <FacilityMapURLs>
+                <FacilityMapURL>
+                    <MapName>
+                        <Zh_tw></Zh_tw>
+                        <En></En>
+                    </MapName>
+                    <MapURL></MapURL>
+                    <FloorLevel></FloorLevel>
+                </FacilityMapURL>
+            </FacilityMapURLs>
+            <Elevators>
+                <Elevator>
+                    <Description \>
+                    <FloodLevel \>
+                </Elevator>
+            </Elevators>
+            <InformationSpots>
+                <InformationSpot>
+                    <Description \>
+                    <FloodLevel \>
+                </InformationSpot>
+            </InformationSpots>
+            <DrinkingFountains>
+                <DrinkingFountain>
+                    <Description \>
+                    <FloodLevel \>
+                <DrinkingFountain>
+            </DrinkingFountains>
+            <Toilets>
+                <Toilet>
+                    <Description \>
+                    <FloodLevel \>
+                </Toilet>
+            </Toilets>
+            <Lockers>
+                <Locker>
+                    <Description \>
+                    <FloodLevel \>
+                </Locker>
+            </Lockers>
+            <NursingRooms>
+                <NursingRoom>
+                    <Description \>
+                    <FloodLevel \>
+                </NursingRoom>
+            </NursingRooms>
+    </StationFacilities>
+</MRTStationTransferList>
