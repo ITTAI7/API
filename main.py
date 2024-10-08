@@ -5,6 +5,7 @@ from StationTransfer import st_csv_to_xml
 import os
 import xmltodict  # {{ edit_1 }}
 
+key = os.getenv("FAKE_VALUE")
 app = FastAPI()
 
 # 確保 data 資料夾存在
